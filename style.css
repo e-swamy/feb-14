@@ -4,7 +4,8 @@
 font-family: 'Patua One', cursive;
 
  */
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 
 /* Links */
 a,
@@ -17,7 +18,9 @@ a:hover {
 .text-danger {
     color: #ff0018 !important;
 }
-
+.Oleo_Script {
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+}
 /*
  * Base structure
  */
@@ -25,6 +28,7 @@ a:hover {
 html,
 body {
     height: 100%;
+    font-family: 'Poppins', sans-serif;
     background: radial-gradient(#333333, #000000);
 }
 
